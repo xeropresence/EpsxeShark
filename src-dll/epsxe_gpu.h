@@ -398,6 +398,49 @@ LRESULT CALLBACK key_winproc(HWND hwnd,UINT message,WPARAM wParam,LPARAM lParam)
 				break;
 			}
 		}
+		//f
+		if (wParam == 70)
+		{
+						// on-to-off, F4-to-off (full)
+			if( max_fps_toggle == 0 ) {
+				max_fps_toggle = 1;
+
+				if( (*framelimit) == 1 ) {
+					// turn off framelimiter
+					(*framelimit) = 0;
+					//GPUsetframelimit(0);
+					SPUsetframelimit(0);
+				}
+
+				break;
+			}
+
+			// off-to-on
+			else if( max_fps_toggle == 1 ) {
+				// turn on framelimiter
+				(*framelimit) = 1;
+				//GPUsetframelimit(1);
+				SPUsetframelimit(1);
+
+
+				max_fps_toggle = 0;
+				start_gpu = 200;
+				break;
+			}
+		}
+		//g
+		if (wParam == 71)
+		{
+			SPUsetframelimit(0);
+			break;
+		}
+		//h
+		if (wParam == 72)
+		{
+			SPUsetframelimit(1);
+			break;
+		}
+
 
 
 
