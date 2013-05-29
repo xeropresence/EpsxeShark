@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1d44c128-27d7-433c-8547-ebff812b5231}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CheaterApp">
+      <UniqueIdentifier>{6342a179-d074-4f89-b2e5-f7d8b9c90338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CheaterApp\Cheat_Engine">
+      <UniqueIdentifier>{bdbb4dcc-61f2-4a74-b01a-6afcb3396921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e2af7e7e-505b-4a30-8ac3-daf4e878d646}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CheaterApp\Cheat_Engine\Shark_Base.cpp">
+      <Filter>Source Files\CheaterApp\Cheat_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CheaterApp\Cheat_Engine\Shark_Cheater.cpp">
+      <Filter>Source Files\CheaterApp\Cheat_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CheaterApp\Cheat_Engine\Shark_Engine.cpp">
+      <Filter>Source Files\CheaterApp\Cheat_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CheaterApp\CheaterApp.cpp">
+      <Filter>Source Files\CheaterApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CheaterApp\CheatFile.cpp">
+      <Filter>Source Files\CheaterApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CheaterApp\EditDlg.cpp">
+      <Filter>Source Files\CheaterApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CheaterApp\OptionsDlg.cpp">
+      <Filter>Source Files\CheaterApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CheaterApp\SearchDlg.cpp">
+      <Filter>Source Files\CheaterApp</Filter>
+    </ClCompile>
+    <ClCompile Include="SharkApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CheaterApp\Cheat_Engine\Shark_Base.h">
+      <Filter>Source Files\CheaterApp\Cheat_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CheaterApp\Cheat_Engine\Shark_Cheater.h">
+      <Filter>Source Files\CheaterApp\Cheat_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CheaterApp\Cheat_Engine\Shark_Engine.h">
+      <Filter>Source Files\CheaterApp\Cheat_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CheaterApp\CheaterApp.h">
+      <Filter>Source Files\CheaterApp</Filter>
+    </ClInclude>
+    <ClInclude Include="CheaterApp\CheatFile.h">
+      <Filter>Source Files\CheaterApp</Filter>
+    </ClInclude>
+    <ClInclude Include="CheaterApp\Controls.h">
+      <Filter>Source Files\CheaterApp</Filter>
+    </ClInclude>
+    <ClInclude Include="CheaterApp\EditDlg.h">
+      <Filter>Source Files\CheaterApp</Filter>
+    </ClInclude>
+    <ClInclude Include="CheaterApp\OptionsDlg.h">
+      <Filter>Source Files\CheaterApp</Filter>
+    </ClInclude>
+    <ClInclude Include="CheaterApp\SearchDlg.h">
+      <Filter>Source Files\CheaterApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Rc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharkApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MAIN.RC">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DLGAPP.ICO">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DLGAPP_S.ICO">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
